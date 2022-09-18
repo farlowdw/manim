@@ -83,6 +83,11 @@
    --docusaurus-highlighted-code-line-bg: var(--color-gray-12);
    --ifm-link-hover-decoration: none;
  
+   // prevents weird off-color background behind line numbers in light mode
+   [class^='codeLineNumber_'] {
+     background-color: var(--color-gray-4) !important;
+   }
+ 
    /* Begin pseudocode styles */
    div.ps-root {
      background-color: var(--ifm-code-background);
@@ -708,18 +713,3 @@
    color: black;
  }
  /* end KaTeX styling */
- 
- 
- figcaption {
-   margin-bottom: 1rem;
- }
- 
- .bibHeader::before { 
-   display: block; 
-   content: " "; 
-   padding-top: 35px;
-   margin-top: -75px; 
-   height: 75px; 
-   visibility: hidden; 
-   pointer-events: none;
- }

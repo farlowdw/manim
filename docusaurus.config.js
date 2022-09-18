@@ -176,6 +176,26 @@ const config = {
             position: 'left',
           },
           {
+            href: 'https://docs.manim.community/en/stable/index.html',
+            label: 'Docs',
+            position: 'left',
+          },
+          {
+            href: 'https://try.manim.community/',
+            label: 'Jupyter Notebook',
+            position: 'left',
+          },
+          {
+            href: 'https://github.com/ManimCommunity/manim',
+            label: 'GitHub',
+            position: 'left',
+          },
+          {
+            href: 'https://github.com/3b1b/manim',
+            label: 'Manim GL',
+            position: 'left',
+          },
+          {
             to: '/blog',
             label: 'Blog',
             position: 'right'
