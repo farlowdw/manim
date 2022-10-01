@@ -165,6 +165,7 @@ const config = {
       },
       navbar: {
         title: 'Manim Handbook',
+        hideOnScroll: true,
         logo: {
           alt: 'Manim Handbook Logo',
           src: 'img/logo.svg',
